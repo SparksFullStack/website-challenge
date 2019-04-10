@@ -1,0 +1,163 @@
+/* Orange color: #E57E00 */
+
+/* Navbar */
+.background-orange {
+    background-color: #E57E00 !important;
+}
+
+.text-orange {
+    color: #E57E00;
+}
+
+.brand--call {
+    opacity: .5;
+}
+
+.brand--nums {
+    color: #fff;
+}
+
+/* Header */
+.header {
+    background-color: #F0F0F0;
+    height: 18vh;
+}
+
+.header--brand--container {
+    margin-top: 30px; 
+}
+
+.header--navbar {
+    margin-top: 30px; 
+}
+
+.header--brand {
+    font-size: 50px;
+}
+
+.dropdown-toggle {
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.dropdown-toggle:active,
+.dropdown-toggle:hover {
+    border-bottom: 1px solid #E57E00;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-toggle {
+    opacity: .7;
+}
+
+.dropdown-toggle:active,
+.dropdown-toggle:active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    list-style: none;
+    padding-left: 0;
+    margin: 40px 0;
+}
+
+.breadcrumbs > li {
+    display: inline;
+}
+
+.breadcrumbs > li > a {
+    color: black;
+    text-decoration: none;
+    opacity: .5;
+}
+
+.breadcrumbs > li > a:hover {
+    opacity: 1;
+}
+
+#breadcrumbs--active {
+    color: black;
+    font-weight: bold;
+    opacity: 1;
+}
+
+/* Contact */
+
+.contact--subheader {
+    font-weight: lighter;
+    opacity: .7;
+}
+
+/*  */
+
+
+/* Form and Reach Sections */
+.form--main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form--container,
+.reach--container {
+    width: 50%;
+}
+
+.form--header--text,
+.reach--header--text {
+    font-weight: lighter;
+    border-bottom: 5px solid black;
+    width: 90%;
+    padding-bottom: 7px;
+}
+
+.reach--header--text {
+    text-align: left;
+}
+
+/* Form */
+    .form--input {
+        border: none;
+        background-color: #F0F0F0;
+        width: 90%;
+    }
+
+    .form--input--half {
+        width: 45%;
+        display: inline-block;
+    }
+/*  */
+
+
+/* Reach */
+.reach--content--header {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.reach--content--text {
+    margin: 0;
+}
+
+.reach--textgroup {
+    margin-bottom: 20px;
+}
+
+.icon {
+    opacity: .3;
+}
+
+.icon--active {
+    opacity: 1;
+}
+
+.icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+/*  */
